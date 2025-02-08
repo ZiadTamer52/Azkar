@@ -1,4 +1,7 @@
 # Azkar
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![C++](https://img.shields.io/badge/C%2B%2B-11-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellowgreen)
 
 This is a simple web application that displays *Azkar (morning and evening)* with the option to mark each one as "read" by clicking a button. This app is designed using *HTML, **CSS, and **JavaScript*.
 
