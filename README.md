@@ -20,4 +20,5 @@ This is a simple web application that displays *Azkar (morning and evening)* wit
 2. Click on either the "Morning Azkar" or "Evening Azkar" button to view the respective list.
 3. For each Azkar, click the "✔ Read" button to mark it as read. The Azkar will disappear from the list after being marked.
 
-## File Structure
+
+If you want to access the page click on : https://ziadtamer52.github.io/Azkar/
