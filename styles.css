@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 20px 0;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav button {
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav button:hover {
+    background-color: #5a9bd4;
+}
+
+main {
+    padding: 20px;
+}
+
+.azkar {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 600px;
+    text-align: right;
+    line-height: 1.6;
+}
+
+
+.delete-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #4682b4;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s, transform 0.3s;
+    font-family: Arial, sans-serif;
+}
+footer a:hover {
+    outline: 2px solid #316086;
+    transform: scale(1.1);
+
+}

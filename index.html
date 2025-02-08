@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذكار الصباح والمساء</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>أذكار الصباح والمساء</h1>
+    </header>
+    <nav>
+        <button onclick="showAzkar('morning')">أذكار الصباح</button>
+        <button onclick="showAzkar('evening')">أذكار المساء</button>
+    </nav>
+    <main id="azkar-container">
+        <!-- سيتم تحميل الأذكار هنا -->
+    </main>
+    <script src="scripts.js"></script>
+
+    <script>
+        let displayedAzkar = {
+            morning: [...azkar.morning], 
+            evening: [...azkar.evening]
+        };
+    
+        function showAzkar(timeOfDay) {
+            const container = document.getElementById('azkar-container');
+            container.innerHTML = '';
+    
+            displayedAzkar[timeOfDay].forEach((zekr, index) => {
+                const zekrDiv = document.createElement('div');
+                zekrDiv.className = 'azkar';
+    
+                const deleteButton = document.createElement('button');
+                deleteButton.innerText = '✔ تمت قراءته';
+                deleteButton.className = 'delete-btn';
+                deleteButton.onclick = function () {
+                    removeZekr(timeOfDay, index);
+                };
+    
+                zekrDiv.innerHTML = `<p style="font-size: 20px; font-weight: bold;">${zekr.text.replace(/\n/g, '<br>')}</p>
+                                     <p style="font-size: 18px; color: gray;"><em>${zekr.reference.replace(/\n/g, '<br>')}</em></p>`;
+    
+                zekrDiv.appendChild(deleteButton);
+                container.appendChild(zekrDiv);
+            });
+        }
+    
+        function removeZekr(timeOfDay, index) {
+            displayedAzkar[timeOfDay].splice(index, 1);
+            showAzkar(timeOfDay);
+        }
+    </script>
+    <footer>
+        <P> <a href="https://ziadtamer52.github.io/Tasbeeh/" target="_blank">Tasbeeh</a></P>
+    </footer>
+</body>
+</html>
