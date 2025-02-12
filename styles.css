@@ -63,6 +63,57 @@ main {
     background-color: #218838;
 }
 
+
+/* Style for the counter container */
+.counter-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style for the counter display */
+.counter {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Style for the decrement button */
+.decrement-btn {
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+.decrement-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Style for the delete button */
+.delete-btn {
+    margin-left: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.delete-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.delete-btn:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+
 footer {
     background-color: #4682b4;
     color: white;
@@ -82,3 +133,4 @@ footer a:hover {
     transform: scale(1.1);
 
 }
+
