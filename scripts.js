@@ -103,6 +103,18 @@ const azkar = {
         {
             text:" اللَّهُمَّ أَنْتَ رَبِّي لا إِلَهَ إِلا أَنْتَ ، عَلَيْكَ تَوَكَّلْتُ ، وَأَنْتَ رَبُّ الْعَرْشِ الْعَظِيمِ , مَا شَاءَ اللَّهُ كَانَ ، وَمَا لَمْ يَشَأْ لَمْ يَكُنْ ، وَلا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ , أَعْلَمُ أَنَّ اللَّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ، وَأَنَّ اللَّهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا , اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي ، وَمِنْ شَرِّ كُلِّ دَابَّةٍ أَنْتَ آخِذٌ بِنَاصِيَتِهَا ، إِنَّ رَبِّي عَلَى صِرَاطٍ مُسْتَقِيمٍ. ",
             reference:"مره واحده فقط"
+        },
+        {
+            text:"لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءِ قَدِيرِ. ",
+            reference:"100 مرات \n  كانت له عدل عشر رقاب، وكتبت له مئة حسنة، ومحيت عنه مئة سيئة، وكانت له حرزا من الشيطان."
+        },
+        {
+            text:"سُبْحـانَ اللهِ وَبِحَمْـدِهِ.",
+            reference:"100 مرات \n حُطَّتْ خَطَايَاهُ وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ. لَمْ يَأْتِ أَحَدٌ يَوْمَ الْقِيَامَةِ بِأَفْضَلَ مِمَّا جَاءَ بِهِ إِلَّا أَحَدٌ قَالَ مِثْلَ مَا قَالَ أَوْ زَادَ عَلَيْهِ."
+        },
+        {
+            text:"أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ.",
+            reference:"100 مرات \n مائة حسنة، ومُحيت عنه مائة سيئة، وكانت له حرزاً من الشيطان حتى يمسى."
         }
         // أضف المزيد من أذكار الصباح هنا
     ],
@@ -210,6 +222,18 @@ const azkar = {
         {
             text:"اللَّهُمَّ أَنْتَ رَبِّي لا إِلَهَ إِلا أَنْتَ ، عَلَيْكَ تَوَكَّلْتُ ، وَأَنْتَ رَبُّ الْعَرْشِ الْعَظِيمِ , مَا شَاءَ اللَّهُ كَانَ ، وَمَا لَمْ يَشَأْ لَمْ يَكُنْ ، وَلا حَوْلَ وَلا قُوَّةَ إِلا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ , أَعْلَمُ أَنَّ اللَّهَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ ، وَأَنَّ اللَّهَ قَدْ أَحَاطَ بِكُلِّ شَيْءٍ عِلْمًا , اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنْ شَرِّ نَفْسِي ، وَمِنْ شَرِّ كُلِّ دَابَّةٍ أَنْتَ آخِذٌ بِنَاصِيَتِهَا ، إِنَّ رَبِّي عَلَى صِرَاطٍ مُسْتَقِيمٍ. ",
             reference:"مره واحده فقط"
+        },
+        {
+            text:"لَا إلَه إلّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءِ قَدِيرِ. ",
+            reference:"100 مرات \n  كانت له عدل عشر رقاب، وكتبت له مئة حسنة، ومحيت عنه مئة سيئة، وكانت له حرزا من الشيطان."
+        },
+        {
+            text:"سُبْحـانَ اللهِ وَبِحَمْـدِهِ.",
+            reference:"100 مرات \n حُطَّتْ خَطَايَاهُ وَإِنْ كَانَتْ مِثْلَ زَبَدِ الْبَحْرِ. لَمْ يَأْتِ أَحَدٌ يَوْمَ الْقِيَامَةِ بِأَفْضَلَ مِمَّا جَاءَ بِهِ إِلَّا أَحَدٌ قَالَ مِثْلَ مَا قَالَ أَوْ زَادَ عَلَيْهِ."
+        },
+        {
+            text:"أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ.",
+            reference:"100 مرات \n مائة حسنة، ومُحيت عنه مائة سيئة، وكانت له حرزاً من الشيطان حتى يمسى."
         }
         // أضف المزيد من أذكار المساء هنا
     ]
@@ -217,20 +241,7 @@ const azkar = {
 
 
 
-function showAzkar(timeOfDay) {
-    const container = document.getElementById('azkar-container');
-    container.innerHTML = '';
-    azkar[timeOfDay].forEach(zekr => {
-        const zekrDiv = document.createElement('div');
-        zekrDiv.className = 'azkar';
-        zekrDiv.innerHTML = `<p>${zekr.text.replace(/\n/g, '<br>')}</p>
-                             <p><em>${zekr.reference.replace(/\n/g, '<br>')}</em></p>`;
-        container.appendChild(zekrDiv);
-    });
-    
-}
-
-let displayedAzkar = {
+const displayedAzkar = {
     morning: [...azkar.morning], 
     evening: [...azkar.evening]
 };
@@ -243,77 +254,53 @@ function showAzkar(timeOfDay) {
         const zekrDiv = document.createElement('div');
         zekrDiv.className = 'azkar';
 
-        // Create a delete button ("تمت قراءته")
-        const deleteButton = document.createElement('button');
-        deleteButton.innerText = '✔ تمت قراءته';
-        deleteButton.className = 'delete-btn';
-        deleteButton.onclick = function () {
-            removeZekr(timeOfDay, index);
-        };
+        // استخراج العدد الافتراضي من المرجع (إذا وجد رقم في النص)
+        const initialCount = parseInt(zekr.reference.match(/\d+/)?.[0] || 1); // افتراضي 1 إذا لم يوجد رقم
 
-        // Add Zekr content
+        // إضافة نص الذكر
         zekrDiv.innerHTML = `
-            <p style="font-size: 20px; font-weight: bold;">${zekr.text.replace(/\n/g, '<br>')}</p>
-            <p style="font-size: 18px; color: gray;"><em>${zekr.reference.replace(/\n/g, '<br>')}</em></p>
+            <p class="zekr-text">${zekr.text.replace(/\n/g, '<br>')}</p>
+            <p class="zekr-reference"><em>${zekr.reference.replace(/\n/g, '<br>')}</em></p>
         `;
 
-        // Extract the initial count from the reference field
-        const initialCount = parseInt(zekr.reference.match(/\d+/)?.[0] || 1); // Default to 1 if no number found
+        // إضافة العداد اليدوي فقط
+        addManualCountdown(zekrDiv, initialCount, timeOfDay, index);
 
-        // Add the manual countdown counter for this specific Zekr
-        addManualCountdown(zekrDiv, initialCount, deleteButton);
-
-        // Append the delete button and add the Zekr div to the container
-        zekrDiv.appendChild(deleteButton);
+        // إضافة العنصر للقائمة
         container.appendChild(zekrDiv);
     });
 }  
-function removeZekr(timeOfDay, index) {
-    // Remove the Zekr from the displayedAzkar array
-    displayedAzkar[timeOfDay].splice(index, 1);
 
-    // Re-render the Azkar list for the current time of day
-    showAzkar(timeOfDay);
-}   
+// إضافة العداد اليدوي فقط مع حذف الذكر عند الوصول للصفر
+function addManualCountdown(zekrDiv, initialCount, timeOfDay, index) {
+    // Container للعداد
+    const counterContainer = document.createElement('div');
+    counterContainer.className = 'counter-container';
 
-
-// Function to create and manage the manual countdown counter for a single Zekr
-function addManualCountdown(zekrDiv, initialCount, deleteButton) {
-    // Create a span to display the counter value
     const counterDisplay = document.createElement('span');
     counterDisplay.className = 'counter';
     counterDisplay.textContent = initialCount;
 
-    // Create decrement button
-    const decrementButton = document.createElement('button');
-    decrementButton.className = 'decrement-btn';
-    decrementButton.textContent = 'ــ';
-
-    // Initialize the counter
     let count = initialCount;
 
-    // Disable the delete button initially
-    deleteButton.disabled = true;
-
-    // Event listener for decrement button
-    decrementButton.addEventListener('click', () => {
+    counterContainer.addEventListener('click', () => {
         if (count > 0) {
             count--;
             counterDisplay.textContent = count;
 
-            // Enable the delete button when the counter reaches 0
+            // حذف الذكر عند الوصول للصفر
             if (count === 0) {
-                deleteButton.disabled = false;
+                removeZekr(timeOfDay, index);
             }
         }
     });
 
-    // Container for the counter and buttons
-    const counterContainer = document.createElement('div');
-    counterContainer.className = 'counter-container';
-    counterContainer.appendChild(decrementButton);
     counterContainer.appendChild(counterDisplay);
-
-    // Append the counter container to the Zekr div
     zekrDiv.appendChild(counterContainer);
+}
+
+// حذف الذكر عند وصول العداد للصفر
+function removeZekr(timeOfDay, index) {
+    displayedAzkar[timeOfDay].splice(index, 1);
+    showAzkar(timeOfDay);
 }
