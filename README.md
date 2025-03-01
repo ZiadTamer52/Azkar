@@ -3,7 +3,7 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-11-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellowgreen)
 
-This is a simple web application that displays *Azkar (morning and evening)* with the option to mark each one as "read" by clicking a button. This app is designed using *HTML, **CSS, and **JavaScript*.
+This is a simple web application that displays *Azkar (morning and evening)* with the option to mark each one as "read" by clicking a button. This app is designed using *HTML*, *CSS*, and *JavaScript*.
 
 ## Features
 - Display a list of Azkar for both *morning* and *evening*.
@@ -11,9 +11,9 @@ This is a simple web application that displays *Azkar (morning and evening)* wit
 - The Azkar are stored temporarily in memory (does not save between page reloads).
 
 ## Technologies Used
-- *HTML*: For structuring the content.
-- *CSS*: For styling the webpage.
-- *JavaScript*: For interactivity and managing the list of Azkar.
+- *HTML* : For structuring the content.
+- *CSS* : For styling the webpage.
+- *JavaScript* : For interactivity and managing the list of Azkar.
 
 ## How to Use
 1. Open the index.html file in your browser.
