@@ -46,21 +46,49 @@ main {
     text-align: right;
     line-height: 1.6;
 }
-
-
-.delete-btn {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin-top: 10px;
+.zekr-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.zekr-reference {
+    font-size: 18px;
+    color: gray;
+}
+/* تصميم الـ Container للعداد */
+/* صندوق العداد بحجم الرقم فقط */
+.counter-container {
+    display: flex;
+    align-self: flex-end; /* يجعل العداد في أقصى اليمين */
+    margin-top: 10px; /* مسافة بين العداد والنص */
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
 }
 
-.delete-btn:hover {
-    background-color: #218838;
+
+
+
+/* تصميم العداد */
+.counter-container {
+    display: flex; /* إبقاء العنصر بحجمه الطبيعي */
+    align-self: flex-end; /* وضعه في أقصى اليمين */
+    margin-top: 10px; /* مسافة بين العداد والنص */
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    width: 80px; /* التحكم في العرض */
+    height: 42px; /* التحكم في الارتفاع */
+    color: white;
+    background: #5a9bd4; /* لون خلفي خفيف */
+    transition: 0.3s;
+}
+.counter-container:hover {
+    background: #316086;
 }
 
 
@@ -90,27 +118,6 @@ main {
 
 .decrement-btn:hover {
     background-color: #e0e0e0;
-}
-
-/* Style for the delete button */
-.delete-btn {
-    margin-left: 10px;
-    padding: 5px 10px;
-    cursor: pointer;
-    border: none;
-    background-color: #28a745;
-    color: white;
-    border-radius: 4px;
-    font-weight: bold;
-}
-
-.delete-btn:disabled {
-    background-color: #ccc;
-    cursor: not-allowed;
-}
-
-.delete-btn:hover:not(:disabled) {
-    background-color: #218838;
 }
 
 
