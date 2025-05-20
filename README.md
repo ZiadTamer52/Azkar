@@ -6,7 +6,7 @@
 
 ## 📖 About
 
-This is a simple web application that displays *[Azkar](https://ziadtamer52.github.io/Azkar/) (morning and evening and sleeping)* with the option to mark each one as "read" by clicking a button. This app is designed using *HTML*, *CSS*, and *JavaScript*.
+This is a simple web application that displays *[Azkar](https://azkar-self.vercel.app/) (morning and evening and sleeping)* with the option to mark each one as "read" by clicking a button. This app is designed using *HTML*, *CSS*, and *JavaScript*.
 
 
 ## ✨ Features
@@ -61,4 +61,4 @@ Contributions and improvements are welcome! If you find any issues or have sugge
 This project is open-source. You are free to use and modify it as needed.
 
 
-If you want to access the page click [Here](https://ziadtamer52.github.io/Azkar/)
+If you want to access the page click [Here](https://azkar-self.vercel.app/)
